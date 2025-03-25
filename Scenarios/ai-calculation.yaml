@@ -3,7 +3,7 @@ kind: WorkflowTemplate
 metadata:
   name: calculation-pipeline # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
   annotations:
-    scenarios.ai.sap.com/description: "Tutorial to add custom code to SAP AI Core"
+    scenarios.ai.sap.com/description: "Tutorial to add calculation"
     scenarios.ai.sap.com/name: "Calculation Code"
     executables.ai.sap.com/description: "Get Calculation Data"
     executables.ai.sap.com/name: "Basic Calculation"
